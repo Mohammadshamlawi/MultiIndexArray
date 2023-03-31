@@ -1,0 +1,29 @@
+{
+    "name": "moh/multi-index-array",
+    "description": "A PHP array and Illuminate Collection that allows the use of multiple indices at once to get, set, and unset elements from the array.",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "arrays"
+    ],
+    "authors": [
+        {
+            "name": "Mohammad Shamlawi",
+            "email": "Mohammad@shamlawi.com"
+        }
+    ],
+    "require": {
+        "illuminate/collections": "^10.5",
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "MultiIndexArray\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist"
+    }
+}
