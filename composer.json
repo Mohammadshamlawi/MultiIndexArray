@@ -21,7 +21,7 @@
             "Moh\\MultiIndexArray\\": "src/"
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "config": {
         "sort-packages": true,
         "preferred-install": "dist"
