@@ -1,5 +1,10 @@
 <?php
 
+namespace Moh\MultiIndexArray;
+
+use ArrayAccess;
+use Countable;
+
 /**
  * @template TKey of array-key
  * @template TValue

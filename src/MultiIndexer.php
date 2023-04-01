@@ -1,5 +1,7 @@
 <?php
 
+namespace Moh\MultiIndexArray;
+
 trait MultiIndexer
 {
     /**
